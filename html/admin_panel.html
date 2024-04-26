@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pie Chart</title>
+    <link rel="stylesheet" href="../css/homepage.css">
+    <link rel="stylesheet" href="../css/adminpage.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header_image">
+            <img src="/images/logo-inv.webp" alt="">
+        </div>
+        <div id="header_elements_div">
+            <div class="header_elements">Home</div>
+            <div class="header_elements">Features</div>
+            <div class="header_elements">About us</div>
+            <div class="header_elements">Parking options</div>
+            <div class="header_elements">Car services</div>
+            <div class="header_elements">Location</div>
+        </div>
+    </div>
+    <div id="lot">
+        <div id="lotDetails">
+            <div class="dele">
+                <div class="detailheading">Pincode</div>
+                <div class="detailselement" id="pin">p</div>
+            </div>
+            <div class="dele">
+                <div class="detailheading">Location</div>
+                <div class="detailselement" id="locat">L</div>
+            </div>
+            <div class="dele">
+                <div class="detailheading">Capacity</div>
+                <div class="detailselement" id="cap">C</div>
+            </div>
+
+        </div>
+        <div id="pie"><canvas id="pieChart" width="400" height="400"></canvas>
+        </div>
+    </div>
+
+
+    <div id="lookOutForm">
+        <h1>Login</h1>
+        <input type="text" id="lot_email" placeholder="Enter your email">
+        <input type="text" id="password" placeholder="Enter your password">
+        <input type="submit" id="parkingLotSignin">
+    </div>
+    <canvas id="pieChart" width="400" height="400"></canvas>
+
+    <div class="chart">
+        <div class="bar" style="height: 100px;"></div>
+        <div class="bar" style="height: 200px;"></div>
+        <div class="bar" style="height: 150px;"></div>
+        <div class="bar" style="height: 250px;"></div>
+    </div>
+    <script src="/jvavascript/admin.js"></script>
+</body>
+
+</html>

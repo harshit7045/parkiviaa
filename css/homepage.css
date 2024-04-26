@@ -1,0 +1,467 @@
+#header {
+    height: 8vh;
+    background-color: rgb(21, 32, 42);
+    display: flex;
+
+
+}
+
+body {
+    margin: 0%;
+
+}
+
+.header_elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(136, 144, 157);
+    margin-left: 2vw;
+
+    height: 100%;
+
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+#header_image {
+    padding: 15px;
+    display: inline-block;
+    margin-left: 9vw;
+}
+
+#header_elements_div {
+
+    margin-left: 25vh;
+    display: flex;
+
+
+}
+
+#image {
+    height: 70vh;
+    background-image: url(/images/digefinal.jpg);
+    background-size: cover;
+    margin-top: -8vh;
+
+
+}
+
+#image_div_text1 {
+    font-size: 89px;
+    font-family: sans-serif;
+    color: RGB(255, 255, 255);
+    width: 50vw;
+    font-weight: 700;
+    margin-left: 4vw;
+    padding-bottom: 20vh;
+
+}
+
+#image {
+    display: flex;
+    align-items: center;
+
+
+}
+
+#image_div_text2 {
+    color: RGB(255, 255, 255);
+    width: 40vw;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 4vw;
+    font-weight: 400;
+    margin-top: -20vh;
+}
+
+#features {
+    height: 40vh;
+    background-color: rgb(246, 247, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature_block {
+    height: 25vh;
+    width: 20vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 0%;
+}
+
+.feature_image img {
+    padding: 5px;
+    height: 5vh;
+    width: 5vw;
+    background-size: contain;
+
+}
+
+.feature_image {
+    margin: 5pxpx;
+}
+
+#why_choose {
+    height: 140vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+#wc_img {
+    margin-left: 10vw;
+    margin-top: 15vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#wc_question {
+    height: 30vh;
+    width: 30vw;
+
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+#wc1 {
+    color: #21303E;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+#wc2 {
+    color: #888D93;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+    font-family: sans-serif;
+    margin-top: 6vh;
+}
+
+#map {
+    border-color: brown;
+    border-style: dotted;
+    border-width: 1px;
+    height: 60vh;
+    width: 65vw;
+    margin-top: -80vh;
+    margin-left: 25vw;
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+
+.feature_text {
+    color: rgb(157, 151, 153);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: vh;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.heading1 {
+    color: black;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10%;
+}
+
+
+#below_map {
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+#sub_below_map {
+
+
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block {
+    border-radius: 5%;
+    border-style: dotted;
+    border-color: #dee0e1;
+    border-width: 1.5px;
+
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    height: 15vh;
+}
+
+.icon1 {
+
+
+    display: flex;
+    align-items: center;
+    margin: 2vh;
+    height: 7vh;
+    width: 5vw;
+    background-size: contain;
+}
+
+.content_text {
+
+    height: 75%;
+    width: 14vw;
+    align-items: center;
+    color: rgb(157, 151, 153);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.icon1 img {
+
+
+    display: flex;
+    align-items: center;
+
+    height: 7vh;
+    width: 5vw;
+    background-size: contain;
+}
+
+.hed {
+
+
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+#prebook {
+    width: 102%;
+    overflow: hidden;
+    margin: -5vh;
+}
+
+.feature_block:hover {
+    background-color: #13c33e;
+
+
+
+
+}
+
+.feature_block:hover .heading1,
+.feature_block:hover .feature_text {
+    color: white;
+}
+
+.block:hover {
+    background-color: #13c33e;
+}
+
+.block:hover .hed,
+.block:hover .content_text {
+    color: white;
+}
+
+#booking_form {
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10vw;
+    margin-right: 10vh;
+    position: relative;
+    border-radius: 10px;
+}
+
+.booking_form_objects {
+    border: 0cap;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #21303E;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#sub {
+    background-color: #13c33e;
+    height: 80%;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Styles for the popup container */
+.popup {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    height: 70vh;
+    width: 50vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* Styles for the popup content */
+#popupContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style for the close button */
+
+
+#booking_form_popUP {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 40%;
+  
+
+}
+
+.booking_input {
+    height: 3vh;
+    width: 70%;
+    margin: 4vh;
+
+    border-radius: 20px;
+    padding: 1vh;
+    text-align: center;
+    border-width: 0cap;
+    background-color: gainsboro;
+}
+
+#closeBtn {
+    height: 4vh;
+    width: 30%;
+    margin-left: 6.5vw;
+    border-radius: 20px;
+    background-color: rgb(74, 193, 163);
+}
+
+#avilable_lots {
+  
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.avilable_items{
+   
+    height: 5vh;
+    width :70%;
+    margin:20px;
+    border-radius: 20px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/* Styles for the booking input form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+
